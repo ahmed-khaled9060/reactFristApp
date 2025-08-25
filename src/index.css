@@ -1,0 +1,49 @@
+:root {
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+  --second-color-rgb: 44, 62, 80;
+  --white-color: white;
+}
+.bg-main {
+  background-color: var(--main-color);
+}
+.text-second {
+  color: var(--second-color);
+}
+body.modal-open {
+  overflow: visible !important;
+  padding: 0 !important;
+}
+section {
+  padding-top: 6.25rem;
+  padding-bottom: 2.5rem;
+}
+
+.star-light,
+.star-dark {
+  width: fit-content;
+}
+.star-light::before,
+.star-light::after,
+.star-dark::before,
+.star-dark::after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 0.25rem;
+  top: 50%;
+  transform: translatey(50%);
+  background-color: var(--white-color);
+}
+.star-dark::before,
+.star-dark::after {
+  background-color: var(--second-color);
+}
+.star-light::before,
+.star-dark::before {
+  left: -7rem;
+}
+.star-light::after,
+.star-dark::after {
+  right: -7rem;
+}

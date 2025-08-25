@@ -1,0 +1,26 @@
+.bg-body-tertiary {
+  --bs-tertiary-bg-rgb: var(--second-color-rgb);
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  --bs-navbar-brand-hover-color: var(--white-color);
+}
+.nav-link {
+  --bs-nav-link-color: var(--white-color);
+  --bs-nav-link-font-weight: bold;
+}
+.nav-link:focus,
+.nav-link:hover {
+  --bs-nav-link-hover-color: var(--white-color);
+}
+.active {
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+}
+.link-nav {
+  width: fit-content;
+}
+.nav_bar {
+  transition: 0.5s;
+}
