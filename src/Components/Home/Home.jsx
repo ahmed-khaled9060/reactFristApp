@@ -1,7 +1,7 @@
 import React from "react";
 import HomeBg from "/src/assets/images/home/imgi_1_avataaars.svg";
 import Heading from "../Heading/Heading";
-import "./Home.module.css";
+import "./Home.css";
 
 export default function Home() {
   return (

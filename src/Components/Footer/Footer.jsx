@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
-import "./Footer.module.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (

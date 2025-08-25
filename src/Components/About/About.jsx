@@ -1,8 +1,4 @@
-import React from "react";
-import { FaStar } from "react-icons/fa";
-import "./About.module.css";
 import Heading from "../Heading/Heading";
-import { Container } from "react-bootstrap";
 
 export default function About() {
   return (
